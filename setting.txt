@@ -1,0 +1,8 @@
+{
+       'isProduction':'yes',
+       'firstPage': 'Client',
+       'backend': 'http://egcbsc.com:1337',
+       'screenWidth': '1024',
+       'screenHeight': '768',
+       'imageServerURL': 'http://creativesatwork.me:8080/upload'
+}

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.eConsult.SHK"
+        versionCode = "10"
+        version = "2.0.0" >
+	 <gap:splash src="images/splash.png" gap:platform="ios" width="1024" height="768" />
+	 <gap:platform name="ios" />
+  
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.core.file" />
+    <gap:plugin name="org.apache.cordova.core.file-transfer"  />
+    <gap:plugin name="org.apache.cordova.dialogs"  />
+	<gap:plugin name="net.yoik.cordova.plugins.screenorientation"  />
+	
+	<preference name="orientation" value="landscape" />
+	
+	<icon src="images/icon.png" gap:role="default" />
+
+    <access origin="*" />
+    
+    <name>SHK</name>
+
+    <description>
+        This is Shakura Version
+    </description>
+</widget>
